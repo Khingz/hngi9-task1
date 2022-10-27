@@ -3,7 +3,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     HelloWorld
+     <section id='profile__section'></section>
+     <section id='link__section'></section>
+     <section id='social__section'></section>
+     <footer></footer>
     </div>
   );
 }
