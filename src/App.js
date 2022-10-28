@@ -18,6 +18,7 @@ function App() {
       <p id="twitter">team_DKs</p>
       <p id="slack">Khingz</p>
      </section>
+
      {/* link section */}
      <section id='link__section'>
       <a href="https://twitter.com/team_Dks" className="link__btn">Twitter Link</a>
@@ -27,11 +28,13 @@ function App() {
       <a href="https://background.zuri.team" id="pitch" className="link__btn">Pitch</a>
       <a href=" https://books.zuri.team/design-rules" id="book__design" className="link__btn">Books</a>
      </section>
+
      {/* social section */}
      <section id='social__section'>
-      <img src={github_icon} alt="slack__icon" />
       <img src={slack_icon} alt="github__icon" />
+      <img src={github_icon} alt="slack__icon" />
      </section>
+     
      {/* footer section */}
      <footer>
       <img src={zuri_icon} alt="zuri__icon" />

@@ -34,12 +34,16 @@
     border: 1px solid #EAECF0
 }
 
+#link__section a:hover {
+    background-color: #D0D5DD;
+}
+
 #social__secttion {
     width: 100%;
 }
 
 #social__section img {
-    margin: auto 1rem;
+    margin: auto 0.8rem;
     margin-bottom: 8rem;
 }
 
