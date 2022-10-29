@@ -11,8 +11,12 @@
     align-items: center;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
     margin-bottom: 1rem;
+    position: relative;
+}
+#profile__section img {
+    cursor: pointer;
 }
 
 #profile__section #twitter {
@@ -66,6 +70,14 @@ footer {
 
 #slack {
     display: none;
+}
+
+/*share button */
+.share__btn {
+    position:  absolute;
+    right: 23%;
+    top: -2%;
+    cursor: pointer;
 }
 
 /* media query */

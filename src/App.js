@@ -6,6 +6,7 @@ import slack_icon from './assets/img/slack.svg';
 import zuri_icon from './assets/img/Vector.svg';
 import hng_icon from './assets/img/Footer text.svg';
 import i4g_icon from './assets/img/I4G.svg';
+import share_icon from './assets/img/share_default.svg'
 
 import './App.css';
 
@@ -41,6 +42,9 @@ function App() {
       <img src={hng_icon} alt="hng__icon" />
       <img src={i4g_icon} alt="I4G__icon" />
      </footer>
+
+     {/* share button */}
+    <img src={share_icon} alt="share__btn" className='share__btn' />
     </div>
   );
 }
