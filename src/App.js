@@ -22,19 +22,19 @@ function App() {
      {/* link section */}
      <section id='link__section'>
       <a href="https://twitter.com/team_Dks" className="link__btn">Twitter Link</a>
-      <a href="https://training.zuri.team/" id="btn__zuri" className="link__btn">Books</a>
-      <a href="http://books.zuri.team" id="books" className="link__btn">Find Books</a>
+      <a href="https://training.zuri.team/" id="btn__zuri" className="link__btn" >Books</a>
+      <a href="http://books.zuri.team" id="books" className="link__btn" title='Hello world'>Find Books</a>
       <a href=" https://books.zuri.team/python-for-beginners?ref_id=Khingz" id="book__python" className="link__btn">Book Python</a>
       <a href="https://background.zuri.team" id="pitch" className="link__btn">Pitch</a>
       <a href=" https://books.zuri.team/design-rules" id="book__design" className="link__btn">Books</a>
      </section>
 
      {/* social section */}
-     <section id='social__section'>
+     <section id='social__section' >
       <img src={slack_icon} alt="github__icon" />
       <img src={github_icon} alt="slack__icon" />
      </section>
-     
+
      {/* footer section */}
      <footer>
       <img src={zuri_icon} alt="zuri__icon" />
