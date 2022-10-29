@@ -59,3 +59,19 @@ footer {
 #slack {
     display: none;
 }
+
+/* media query */
+@media screen and (max-width: 992px) {
+    footer {
+        display: block;
+        width: 90%;
+    }
+
+    footer img {
+        width: 50%;
+        margin: 0.8rem auto;
+        display: block;
+        float: left;
+        clear: left;
+    }
+}
