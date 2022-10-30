@@ -75,7 +75,7 @@ footer {
 .share__container {
     position:  absolute;
     right: 23%;
-    top: 5%;
+    top: 2rem;
     cursor: pointer;
     overflow: hidden;
 }
