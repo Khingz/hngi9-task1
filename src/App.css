@@ -13,14 +13,13 @@
     font-weight: 500;
     margin-top: 3.5rem;
     margin-bottom: 1rem;
-    position: relative;
 }
 #profile__section img {
     cursor: pointer;
 }
 
 #profile__section #twitter {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -37,7 +36,7 @@
     color: #101828;
     background-color: #EAECF0;
     margin: 1.5rem auto;
-    width: 75%;
+    width: 85%;
     padding: 1.7rem;
     border-radius: 8px;
     font-weight: 550;
@@ -56,12 +55,12 @@
 
 #social__section img {
     margin: auto 0.8rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
 }
 
 footer {
-    width: 85%;
-    padding-top: 2.5rem;
+    width: 95%;
+    padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;
     justify-content: space-between;
@@ -73,18 +72,43 @@ footer {
 }
 
 /*share button */
-.share__btn {
+.share__container {
     position:  absolute;
     right: 23%;
-    top: -2%;
+    top: 5%;
     cursor: pointer;
+    overflow: hidden;
+}
+
+.share__container img {
+    width: 100%;
+}
+
+.share__mobile {
+    display: none;
 }
 
 /* media query */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 850px) {
+    .share__container {
+        right: 5%;
+    }
+
+    .share__mobile {
+        display: block;
+    }
+
+    .share__desktop {
+        display: none;
+    }
+
+    #link__section a {
+        width: 75%;
+    }
+
     footer {
         display: block;
-        width: 90%;
+        width: 95%;
     }
 
     footer img {
