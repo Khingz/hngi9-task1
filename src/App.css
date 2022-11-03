@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-.App {
+
+
+.home__container {
     /* min-height: 100vh; */
     width: 100%;
     display: flex;
@@ -59,9 +61,15 @@
 }
 
 footer {
-    width: 95%;
-    padding-top: 2rem;
+    width: 100%;
     padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__content {
+    padding-top: 2rem;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     border-top: solid 1px #EAECF0;
@@ -75,7 +83,7 @@ footer {
 .share__container {
     position:  absolute;
     right: 23%;
-    top: 5%;
+    top: 2rem;
     cursor: pointer;
     overflow: hidden;
 }
@@ -106,16 +114,15 @@ footer {
         width: 75%;
     }
 
-    footer {
+    .footer__content {
         display: block;
-        width: 95%;
     }
 
-    footer img {
+    .footer__content img {
         width: 50%;
         margin: 0.8rem auto;
         display: block;
         float: left;
-        clear: left;
+        clear: both;
     }
 }
