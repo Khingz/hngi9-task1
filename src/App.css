@@ -96,6 +96,18 @@ footer {
     display: none;
 }
 
+
+
+/* CONTACT SECTION */
+.contact__container {
+    width: 60%;
+    margin: auto;
+}
+
+.contact__container label {
+    display: block;
+}
+
 /* media query */
 @media screen and (max-width: 850px) {
     .share__container {
