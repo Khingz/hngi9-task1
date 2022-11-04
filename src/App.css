@@ -206,6 +206,10 @@ footer {
     cursor: not-allowed;
 }
 
+p.error {
+    color: #F83F23;
+}
+
 /* media query */
 @media screen and (max-width: 850px) {
     .share__container {
