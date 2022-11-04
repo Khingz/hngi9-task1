@@ -109,7 +109,8 @@ footer {
 /* CONTACT SECTION */
 .contact__container {
     width: 100%;
-    margin: 4rem auto;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
     display: flex;
     justify-content: center;
 }
@@ -127,6 +128,7 @@ footer {
 .contact__content p {
     color: #475467;
     margin-top: -0.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .contact__content label {
@@ -156,13 +158,13 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    column-gap: 3rem;
+    column-gap: 1.5rem;
 }
 
 .agree__container {
     display: flex;
     color: #475467;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contact__content input[type=checkbox] {
@@ -189,11 +191,19 @@ footer {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
+.contact__content .submit__btn__container button:hover {
+    background-color: #175CD3;
+}
 
-/* Base/White */
-
-color: #FFFFFF;
+.contact__content .submit__btn__container button:disabled {
+    background-color: #B2DDFF;
+    border-color: #B2DDFF;
+    cursor: not-allowed;
 }
 
 /* media query */
