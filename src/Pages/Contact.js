@@ -7,14 +7,10 @@ const Contact = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [isError, setIsError] = useState(false);
-    const [isSubmit, setIsSubmit] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         validate();
-        if(isError == true) {
-
-        }
     }
 
     const validate = () => {
