@@ -36,7 +36,7 @@ const Profile_Home = () => {
       <a href=" https://books.zuri.team/python-for-beginners?ref_id=Khingz" id="book__python" className="link__btn" title='Get best selling python books for beginners and professionals'>Python Books</a>
       <a href="https://background.zuri.team" id="pitch" className="link__btn" title='Check proficiency and efficeincy of coders'>Background Check For Coders</a>
       <a href=" https://books.zuri.team/design-rules" id="book__design" className="link__btn" title='Get free design books for beginers and professionals from zuri team'>Design Books</a>
-      <Link to='/contact'>Contact Me</Link>
+      <Link to='/contact' id='contact'>Contact Me</Link>
      </section>
 
      {/* social section */}
