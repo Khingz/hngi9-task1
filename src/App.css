@@ -8,6 +8,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+.App {
+    box-sizing: border-box;
+}
+
 .home__container {
     /* min-height: 100vh; */
     width: 100%;
@@ -104,6 +108,7 @@ footer {
 
 /* CONTACT SECTION */
 .contact__container {
+    width: 100%;
     margin: 4rem auto;
     display: flex;
     justify-content: center;
@@ -111,11 +116,11 @@ footer {
 
 .contact__content {
     width: 50%;
+    box-sizing: content-box;
 }
 
 .contact__content h3 {
     font-size: 1.8rem;
-    /* font-size: 36px; */
     color: #101828;
 }
 
@@ -139,6 +144,7 @@ footer {
     border-radius: 8px;
     margin-bottom: 1rem;
     background: #FFFFFF;
+    box-sizing: border-box;
 }
 
 .contact__content textarea {
@@ -206,6 +212,21 @@ color: #FFFFFF;
 
     #link__section a {
         width: 75%;
+    }
+
+
+    /* Contact section  */
+    .contact__container {
+        margin-top: 3rem;
+    }
+
+    .contact__content {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .name__container {
+        grid-template-columns: 1fr;
     }
 
     .footer__content {
