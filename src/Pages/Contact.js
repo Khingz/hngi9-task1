@@ -30,7 +30,7 @@ const Contact = () => {
                 <span>You agree to provide your data to Khingz who may contact you</span>
             </div>
             <div className="submit__btn__container">
-                <button type="submit">Send mesaage</button>
+                <button type="submit">Send message</button>
             </div>
         </form>
       </div>
