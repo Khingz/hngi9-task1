@@ -153,6 +153,20 @@ footer {
     column-gap: 3rem;
 }
 
+.agree__container {
+    display: flex;
+    color: #475467;
+    margin-bottom: 1rem;
+}
+
+.contact__content input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    margin-right: 0.5rem;
+}
+
 /* media query */
 @media screen and (max-width: 850px) {
     .share__container {
