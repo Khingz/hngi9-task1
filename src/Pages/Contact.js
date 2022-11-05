@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const Contact = () => {
   const [isValid, setIsValid] = useState(false);
@@ -10,8 +10,6 @@ const Contact = () => {
   };
   const [formValues, setFormValues] = useState(initialState);
   const [formErrors, setFormErrors] = useState({});
-  const [isSubmit, setSubmit] = useState(false);
-  const [isError, setIsError] = useState(false);
 
   //handle change
   const handleChange = (e) => {
@@ -66,11 +64,11 @@ const Contact = () => {
     
   };
 
-  useEffect(() => {
-    if (Object.keys(formErrors).length === 0 && isSubmit) {
-      console.log('error');
-    }
-  }, [formErrors, formValues]);
+//   useEffect(() => {
+//     if (Object.keys(formErrors).length === 0 && isSubmit) {
+//       console.log('error');
+//     }
+//   }, [formErrors, formValues]);
 
   return (
     <div className="contact__container">
