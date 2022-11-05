@@ -74,7 +74,7 @@ const Contact = () => {
     <div className="contact__container">
       <div className="contact__content">
         <h3>Contact Me</h3>
-        <p>Hi there, contact me to ask me about anything you have in mind</p>
+        <p className='subtext'>Hi there, contact me to ask me about anything you have in mind</p>
         <form onSubmit={handleSubmit}>
           <div className="name__container">
             <div className="firstname__container">

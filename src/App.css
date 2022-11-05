@@ -121,10 +121,10 @@ footer {
     color: #101828;
 }
 
-.contact__content p {
+.contact__content p.subtext {
     color: #475467;
-    margin-top: -0.5rem;
-    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
 }
 
 .contact__content label {
@@ -209,6 +209,7 @@ footer {
 p.error {
     color: #F83F23;
     font-size: 0.9rem;
+    margin-top: -0.7rem;
 }
 
 
