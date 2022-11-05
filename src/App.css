@@ -149,6 +149,7 @@ footer {
     border-radius: 8px;
     background: #FFFFFF;
     box-sizing: border-box;
+    margin-bottom: 1rem;
 }
 
 .contact__content textarea {

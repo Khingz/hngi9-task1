@@ -81,7 +81,7 @@ const Contact = () => {
                 value={formValues.firstname}
                 onChange={handleChange}
               />
-              {Object.keys(formErrors).length && formErrors.firstname ? (
+              {Object.keys(formErrors).length !== 0 && formErrors.firstname ? (
                 <p className="error">{formErrors.firstname}</p>
               ) : (
                 ''
@@ -97,7 +97,7 @@ const Contact = () => {
                 value={formValues.lastname}
                 onChange={handleChange}
               />
-              {Object.keys(formErrors).length && formErrors.lastname ? (
+              {Object.keys(formErrors).length !== 0 && formErrors.lastname ? (
                 <p className="error">{formErrors.lastname}</p>
               ) : (
                 ''
@@ -114,7 +114,7 @@ const Contact = () => {
               value={formValues.email}
               onChange={handleChange}
             />
-            {Object.keys(formErrors).length && formErrors.email ? (
+            {Object.keys(formErrors).length !== 0 && formErrors.email ? (
               <p className="error">{formErrors.email}</p>
             ) : (
               ''
@@ -129,7 +129,7 @@ const Contact = () => {
               value={formValues.message}
               onChange={handleChange}
             ></textarea>
-            {Object.keys(formErrors).length && formErrors.message ? (
+            {Object.keys(formErrors).length !== 0 && formErrors.message ? (
               <p className="error">{formErrors.message}</p>
             ) : (
               ''
