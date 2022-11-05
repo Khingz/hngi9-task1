@@ -212,6 +212,13 @@ p.error {
     margin-top: -0.7rem;
 }
 
+.input__error {
+    border: solid 1px #F89687 !important;
+}
+
+.input__error:focus {
+    border: solid 1px green;
+}
 
 /* media query */
 @media screen and (max-width: 850px) {

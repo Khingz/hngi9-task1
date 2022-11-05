@@ -83,6 +83,7 @@ const Contact = () => {
                 type="text"
                 name="firstname"
                 id="first_name"
+                className={formErrors.firstname ? 'input__error' : ''}
                 placeholder="Enter your first name"
                 value={formValues.firstname}
                 onChange={handleChange}
@@ -99,6 +100,7 @@ const Contact = () => {
                 type="text"
                 name="lastname"
                 id="last_name"
+                className={formErrors.lastname ? 'input__error' : ''}
                 placeholder="Enter your last name"
                 value={formValues.lastname}
                 onChange={handleChange}
@@ -116,6 +118,7 @@ const Contact = () => {
               type="email"
               name="email"
               id="email"
+              className={formErrors.email ? 'input__error' : ''}
               placeholder="yourname@email.com"
               value={formValues.email}
               onChange={handleChange}
@@ -130,6 +133,7 @@ const Contact = () => {
             <label htmlFor="message">Message</label>
             <textarea
               name="message"
+              className={formErrors.message ? 'input__error' : ''}
               id="message"
               placeholder="Send a message and i will reply you as soon as possible"
               value={formValues.message}
