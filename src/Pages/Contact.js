@@ -46,6 +46,7 @@ const Contact = () => {
   //handle submit
   const handleSubmit = (e) => {
     e.preventDefault();
+    //stores error object since i cant have access to the state immediately
     let form_Errors = formErrors;
     setFormErrors(validateInput(formValues));
     form_Errors = validateInput(formValues);
@@ -53,6 +54,13 @@ const Contact = () => {
     if(Object.keys(form_Errors).length !== 0) {
         return;
     }
+
+    setFormValues({...formValues,
+        firstname: '',
+        lastname: '',
+        message: '',
+        email: ''
+    });
 
     alert('Thank you for reaching out, i will get to you ASAP');
     
